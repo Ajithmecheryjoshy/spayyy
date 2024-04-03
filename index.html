@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container" id="loginContainer">
+        <h1>Parent Login</h1>
+        <form id="loginForm">
+            <div class="form-group">
+                <input type="text" id="username" placeholder="Username">
+                <input type="password" id="password" placeholder="Password">
+                <button type="button" onclick="login()">Login</button>
+            </div>
+        </form>
+    </div>
+
+    <div class="container hidden" id="parentPortal">
+        <div class="student-info">
+            <span>CodeDash</span>
+            <span>12-CS-2025</span>
+        </div>
+        <div class="analyse-container">
+            <h2>Weekly and Monthly Expenditure</h2>
+            <div class="analyse-section">
+                <h3>Weekly Expenditure</h3>
+                <!-- Weekly expenditure details -->
+            </div>
+            <div class="analyse-section">
+                <h3>Monthly Expenditure</h3>
+                <!-- Monthly expenditure details -->
+            </div>
+        </div>
+        <!-- Buttons for different actions -->
+    </div>
+
+    <div class="container hidden" id="addMoneyPage">
+        <!-- Add money form -->
+    </div>
+
+    <div class="container hidden" id="limitPage">
+        <!-- Limits setting form -->
+    </div>
+
+    <div class="container hidden" id="analysisPage">
+        <!-- Analysis section -->
+    </div>
+
+    <div class="container hidden" id="monitoring">
+        <!-- Transaction history and balance -->
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
